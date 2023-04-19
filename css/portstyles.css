@@ -1,0 +1,54 @@
+p{
+    font-weight: lighter;
+    font-size: 17px;
+    font-style: italic;
+}
+.header{
+    text-decoration: underline;
+}
+.common{
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(80, 111, 100);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 7px double rgb(52, 70, 62);
+    margin: 20px;
+    padding: 25px;
+}
+.mainbody, .footer, .header, .list-container{
+    text-align: center;
+}
+
+.main-list{
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+}
+
+.sub-list{
+    padding-left: 20px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+.videos{
+    display: flex;
+    justify-content: space-between;
+}
+.youtube{
+    margin: 0 15px;
+}
+
+nav a{
+    color: white;
+    background-color: rgb(112, 137, 129);
+    text-decoration: none;
+    padding: 10px;
+    overflow: hidden;
+}
